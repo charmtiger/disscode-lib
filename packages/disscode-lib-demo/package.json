@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "disscode-lib-demo",
-  "version": "3.1.0-beta.4",
+  "version": "0.0.1",
   "description": "Taro UI demo",
   "author": "O2Team <aotu.io>",
   "homepage": "https://disscode-lib.aotu.io",
@@ -47,9 +47,9 @@
     "@tarojs/react": "~3.4.13",
     "@tarojs/runtime": "~3.4.13",
     "@tarojs/taro": "~3.4.13",
+    "disscode-lib": "^0.0.1",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "disscode-lib": "3.1.0-beta.4"
+    "react-dom": "^16.13.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
