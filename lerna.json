@@ -1,15 +1,15 @@
 {
   "packages": [
-    "packages/taro-ui",
-    "packages/taro-ui-demo",
-    "packages/taro-ui-demo-rn"
+    "packages/disscode-lib",
+    "packages/disscode-lib-demo",
+    "packages/disscode-lib-demo-rn"
   ],
   "command": {
     "publish": {
       "message": "chore(release): publish %s"
     },
     "create": {
-      "homepage": "https://github.com/nervjs/taro-ui",
+      "homepage": "https://github.com/nervjs/disscode-lib",
       "license": "MIT"
     }
   },

@@ -15,7 +15,7 @@ package-lock.json
 .idea
 
 # Build outputs
-packages/taro-ui/lib/
+packages/disscode-lib/lib/
 packages/**/dist/
 dist/
 
@@ -30,4 +30,4 @@ stats.html
 coverage
 
 # taro rn release
-!packages/taro-ui-demo-rn/release/**
+!packages/disscode-lib-demo-rn/release/**

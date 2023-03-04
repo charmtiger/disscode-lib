@@ -1,10 +1,10 @@
 ---
 name: 🚀 Feature Request
-about: 创建一个新功能请求，请通过 https://nervjs.github.io/taro-ui-issue-helper/ 提交
+about: 创建一个新功能请求，请通过 https://nervjs.github.io/disscode-lib-issue-helper/ 提交
 ---
 
 <!--- 
-🎉建议通过 https://nervjs.github.io/taro-ui-issue-helper/ 网页提交 issue
+🎉建议通过 https://nervjs.github.io/disscode-lib-issue-helper/ 网页提交 issue
 
 如果是提交 bug，请搜索文档和 issue，确认以下事项：
 

@@ -6,7 +6,7 @@ node_modules/
 .idea
 
 # Build outputs
-packages/taro-ui/lib/
+packages/disscode-lib/lib/
 packages/**/dist/
 
 # Test files

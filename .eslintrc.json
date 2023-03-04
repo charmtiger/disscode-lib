@@ -157,7 +157,7 @@
               "@md": "./markdown"
             },
             "packages": [
-              "packages/taro-ui-docs"
+              "packages/disscode-lib-docs"
             ]
           }
         },
@@ -168,7 +168,7 @@
     },
     {
       "files": [
-        "packages/taro-ui-docs/build/*.js"
+        "packages/disscode-lib-docs/build/*.js"
       ],
       "rules": {
         "no-console": "off",
@@ -177,10 +177,10 @@
     },
     {
       "files": [
-        "packages/taro-ui-demo/**/*.ts",
-        "packages/taro-ui-demo/**/*.tsx",
-        "packages/taro-ui-demo-rn/**/*.ts",
-        "packages/taro-ui-demo-rn/**/*.tsx"
+        "packages/disscode-lib-demo/**/*.ts",
+        "packages/disscode-lib-demo/**/*.tsx",
+        "packages/disscode-lib-demo-rn/**/*.ts",
+        "packages/disscode-lib-demo-rn/**/*.tsx"
       ],
       "extends": [
         "taro/react"
@@ -188,10 +188,10 @@
     },
     {
       "files": [
-        "packages/taro-ui-demo/config/*.js",
-        "packages/taro-ui-demo/babel.config.js",
-        "packages/taro-ui-demo-rn/**/*.ts",
-        "packages/taro-ui-demo-rn/**/*.tsx"
+        "packages/disscode-lib-demo/config/*.js",
+        "packages/disscode-lib-demo/babel.config.js",
+        "packages/disscode-lib-demo-rn/**/*.ts",
+        "packages/disscode-lib-demo-rn/**/*.tsx"
       ],
       "rules": {
         "import/no-commonjs": "off"

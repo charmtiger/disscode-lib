@@ -26,11 +26,11 @@ Taro 是由 [凹凸实验室](https://aotu.io) 倾力打造的多端开发解决
 
 ## 相关链接
 
-- [Taro UI 使用文档](https://taro-ui.aotu.io)
-- [Taro UI 官方示例](https://github.com/NervJS/taro-ui-demo)
+- [Taro UI 使用文档](https://disscode-lib.aotu.io)
+- [Taro UI 官方示例](https://github.com/NervJS/disscode-lib-demo)
 - [Taro](https://taro.jd.com/)
 - [Taro 物料市场](https://taro-ext.jd.com)
-- [Taro 论坛 Taro-UI 板块](https://taro-club.jd.com/category/11/taro-ui)
+- [Taro 论坛 disscode-lib 板块](https://taro-club.jd.com/category/11/disscode-lib)
 
 ## 安装
 
@@ -43,7 +43,7 @@ npm install -g @tarojs/cli
 然后在项目中安装 Taro UI
 
 ```bash
-npm install taro-ui
+npm install disscode-lib
 ```
 
 ## 使用
@@ -51,12 +51,12 @@ npm install taro-ui
 在代码中 `import` 需要的组件并按照文档说明使用
 
 ```js
-import { AtButton } from 'taro-ui'
+import { AtButton } from 'disscode-lib'
 ```
 
 ## 开发交流
 
-[官方微信交流群](https://github.com/NervJS/taro-ui/issues/16)
+[官方微信交流群](https://github.com/NervJS/disscode-lib/issues/16)
 
 ## 开发计划
 
@@ -68,18 +68,18 @@ import { AtButton } from 'taro-ui'
 
 ## 贡献
 
-如果你在使用 `Taro UI` 时遇到问题，或者有好的建议，欢迎给我们提 `Issue` 或 `Pull Request`。在开始之前，请阅读 [贡献指南](https://github.com/NervJS/taro-ui/blob/master/.github/CONTRIBUTING.md)
+如果你在使用 `Taro UI` 时遇到问题，或者有好的建议，欢迎给我们提 `Issue` 或 `Pull Request`。在开始之前，请阅读 [贡献指南](https://github.com/NervJS/disscode-lib/blob/master/.github/CONTRIBUTING.md)
 
 ## License
 
 MIT
 
-[npm-version-image]: https://img.shields.io/npm/v/taro-ui.svg?style=flat-square
-[npm-version-url]: https://www.npmjs.com/package/taro-ui
-[npm-downloads-image]: https://img.shields.io/npm/dm/taro-ui?style=flat-square
-[npm-downloads-url]: https://www.npmjs.com/package/taro-ui
-[david-dm-image]: https://david-dm.org/NervJS/taro-ui.svg?style=flat-square
-[david-dm-url]: https://david-dm.org/NervJS/taro-ui
-[license-image]: https://img.shields.io/github/license/NervJS/taro-ui?style=flat-square
-[license-url]: https://github.com/NervJS/taro-ui/blob/master/LICENSE
-[roadmap-image]: ./docs/assets/taro-ui-roadmap.svg
+[npm-version-image]: https://img.shields.io/npm/v/disscode-lib.svg?style=flat-square
+[npm-version-url]: https://www.npmjs.com/package/disscode-lib
+[npm-downloads-image]: https://img.shields.io/npm/dm/disscode-lib?style=flat-square
+[npm-downloads-url]: https://www.npmjs.com/package/disscode-lib
+[david-dm-image]: https://david-dm.org/NervJS/disscode-lib.svg?style=flat-square
+[david-dm-url]: https://david-dm.org/NervJS/disscode-lib
+[license-image]: https://img.shields.io/github/license/NervJS/disscode-lib?style=flat-square
+[license-url]: https://github.com/NervJS/disscode-lib/blob/master/LICENSE
+[roadmap-image]: ./docs/assets/disscode-lib-roadmap.svg

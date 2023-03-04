@@ -1,7 +1,7 @@
 {
   "overrides": [
     {
-      "include": "packages/taro-ui-docs/**",
+      "include": "packages/disscode-lib-docs/**",
       "presets": [
         [
           "@babel/preset-env",
