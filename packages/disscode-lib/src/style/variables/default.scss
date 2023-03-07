@@ -4,7 +4,7 @@
 
 @import '../mixins/libs/tint';
 
-$hd: 2 !default; // 基本单位
+$hd: 1 !default; // 基本单位
 
 /* The Color of O2Team Brand */
 $color-brand: #6190E8 !default;
@@ -172,20 +172,20 @@ $at-activity-indicator-font-color: $color-grey-2 !default;
 /* Avatar */
 $at-avatar-color: $color-white !default;
 $at-avatar-bg-color: $color-grey-4 !default;
-$at-avatar-size-sm: 80px !default;
-$at-avatar-size-md: 100px !default;
-$at-avatar-size-lg: 120px !default;
+$at-avatar-size-sm: 40px * $hd !default;
+$at-avatar-size-md: 50px * $hd !default;
+$at-avatar-size-lg: 60px * $hd !default;
 
 /* Badge */
 $at-badge-color: $color-white !default;
 $at-badge-bg-color: $color-error !default;
 $at-badge-bg: $at-badge-bg-color !default;
 $at-badge-font-size: $font-size-xs !default;
-$at-badge-dot-size: 20px !default;
+$at-badge-dot-size: 10px * $hd !default;
 
 /* Button */
-$at-button-height: 92px !default;
-$at-button-height-sm: 60px !default;
+$at-button-height: 46px * $hd !default;
+$at-button-height-sm: 30px * $hd !default;
 $at-button-color: $color-brand !default;
 $at-button-border-color-primary: $color-brand !default;
 $at-button-border-color-secondary: $color-brand !default;
@@ -222,7 +222,7 @@ $at-card-info-color: $color-text-base !default;
 $at-card-note-color: $color-grey-2 !default;
 
 /* Checkbox */
-$at-checkbox-circle-size: 40px !default;
+$at-checkbox-circle-size: 20px * $hd !default;
 $at-checkbox-icon-size: $font-size-sm !default;
 $at-checkbox-icon-color: $color-brand !default;
 $at-checkbox-icon-color-checked: $color-white !default;
@@ -241,17 +241,17 @@ $at-countdown-card-num-bg-color: $color-white !default;
 $at-curtain-btn-color: $color-white !default;
 
 /* Divider */
-$at-divider-height: 112px;
+$at-divider-height: 56px * $hd;
 $at-divider-content-color: $color-brand !default;
 $at-divider-font-size: $font-size-lg !default;
 $at-divider-line-color: $color-grey-3 !default;
 
 /* Drawer */
-$at-drawer-content-width: 460px !default;
+$at-drawer-content-width: 230px * $hd !default;
 
 /* FloatLayout */
-$float-layout-height-min: 600px !default;
-$float-layout-height-max: 950px !default;
+$float-layout-height-min: 300px * $hd !default;
+$float-layout-height-max: 475px * $hd !default;
 $float-layout-header-bg-color: $color-bg-grey !default;
 $float-layout-title-color: $color-text-base !default;
 $float-layout-title-font-size: $font-size-lg !default;
@@ -280,10 +280,10 @@ $at-input-number-text-color: $color-text-base !default;
 $at-input-number-font-size: $font-size-base !default;
 $at-input-number-font-size-lg: $font-size-xl !default;
 $at-input-number-btn-color: $color-brand !default;
-$at-input-number-btn-size: 30px !default;
-$at-input-number-btn-size-lg: 36px !default;
-$at-input-number-width-min: 80px !default;
-$at-input-number-width-min-lg: 120px !default;
+$at-input-number-btn-size: 15px * $hd !default;
+$at-input-number-btn-size-lg: 18px * $hd !default;
+$at-input-number-width-min: 40px * $hd !default;
+$at-input-number-width-min-lg: 60px * $hd !default;
 
 /* Input */
 $at-input-label-color: $color-text-base !default;
@@ -292,12 +292,12 @@ $at-input-font-size: $font-size-lg !default;
 $at-input-placeholder-color: $color-grey-3 !default;
 
 /* List */
-$at-list-thumb-size: 56px !default;
+$at-list-thumb-size: 28px * $hd !default;
 $at-list-arrow-color: $color-grey-3 !default;
 $at-list-text-color: $color-text-base !default;
 $at-list-content-color: $color-grey-2 !default;
 $at-list-extra-color: $color-grey-2 !default;
-$at-list-extra-width: 235px !default;
+$at-list-extra-width: 117px * $hd !default;
 
 /* LoadMore */
 $at-load-more-height: 80PX !default;
@@ -305,7 +305,7 @@ $at-load-more-tips-color: $color-grey-1 !default;
 $at-load-more-tips-size: $font-size-lg !default;
 
 /* Loading */
-$at-loading-size: 36px !default;
+$at-loading-size: 18px * $hd !default;
 $at-loading-color: $color-brand !default;
 
 /* Message */
@@ -314,7 +314,7 @@ $at-message-font-size: $font-size-base !default;
 $at-message-bg-color: $color-info !default;
 
 /* Modal */
-$at-modal-width: 540px !default;
+$at-modal-width: 270px * $hd !default;
 $at-modal-header-text-color: $color-text-base !default;
 $at-modal-content-text-color: $color-text-base !default;
 $at-modal-btn-default-color: $color-text-base !default;
@@ -329,20 +329,20 @@ $at-nav-bar-link-color: $color-brand !default;
 $at-noticebar-text-color: #DE8C17 !default;
 $at-noticebar-bg-color: #FCF6ED !default;
 $at-noticebar-font-size: $font-size-sm !default;
-$at-noticebar-icon-size: 30px !default;
-$at-noticebar-btn-close-size: 32px !default;
+$at-noticebar-icon-size: 15px * $hd !default;
+$at-noticebar-btn-close-size: 16px * $hd !default;
 $at-noticebar-btn-close-color: $color-grey-3 !default;
 
 /* Pagination */
-$at-pagination-margin: 40px !default;
+$at-pagination-margin: 20px * $hd !default;
 $at-pagination-num-color: $color-text-base !default;
 $at-pagination-num-font-size: $font-size-base !default;
 $at-pagination-current-num-color: $color-brand !default;
 $at-pagination-icon-color: $color-text-base !default;
-$at-pagination-icon-font-size: 32px !default;
+$at-pagination-icon-font-size: 16px * $hd !default;
 
 /* Progress */
-$at-progress-height: 16px !default;
+$at-progress-height: 8px * $hd !default;
 $at-progress-text-size: $font-size-sm !default;
 $at-progress-icon-size: $font-size-xl !default;
 $at-progress-inner-bg-color: $color-grey-6 !default;
@@ -384,7 +384,7 @@ $at-slider-text-color: $color-grey-2 !default;
 $at-slider-text-size: $font-size-base !default;
 
 /* Steps */
-$at-steps-circle-size: 56px !default;
+$at-steps-circle-size: 28px * $hd !default;
 $at-steps-icon-size: $font-size-sm !default;
 $at-steps-color: $color-white !default;
 $at-steps-color-active: $color-grey-2 !default;
@@ -412,8 +412,8 @@ $at-tab-bar-color: $color-text-base !default;
 $at-tab-bar-color-active: $color-brand !default;
 $at-tab-bar-font-size: $font-size-base !default;
 $at-tab-bar-icon-color: $color-grey-0 !default;
-$at-tab-bar-icon-font-size: 48px !default;
-$at-tab-bar-icon-image-size: 50px !default;
+$at-tab-bar-icon-font-size: 24px * $hd !default;
+$at-tab-bar-icon-image-size: 25px * $hd !default;
 
 /* Tabs */
 $at-tabs-color: $color-text-base !default;
@@ -424,8 +424,8 @@ $at-tabs-underline-color: $color-grey-5 !default;
 $at-tabs-bg-color: $color-bg !default;
 
 /* Tag */
-$at-tag-height: 60px !default;
-$at-tag-height-sm: 40px !default;
+$at-tag-height: 30px * $hd !default;
+$at-tag-height-sm: 20px * $hd !default;
 $at-tag-color: $color-grey-1 !default;
 $at-tag-color-primary: $color-grey-1 !default;
 $at-tag-color-active: $color-brand-light !default;
@@ -446,12 +446,12 @@ $at-textarea-tips-color: $color-text-placeholder !default;
 $at-textarea-tips-size: $font-size-base !default;
 
 /* Timeline */
-$at-timeline-offset-left: 40px !default;
+$at-timeline-offset-left: 20px * $hd !default;
 $at-timeline-title-color: $color-grey-0 !default;
 $at-timeline-title-font-size: $font-size-base !default;
 $at-timeline-desc-color: $color-grey-1 !default;
 $at-timeline-desc-font-size: $font-size-sm !default;
-$at-timeline-dot-size: 24px !default;
+$at-timeline-dot-size: 12px * $hd !default;
 $at-timeline-dot-color: $color-bg !default;
 $at-timeline-dot-border-color: $color-brand-light !default;
 $at-timeline-line-color: $color-border-lighter !default;
