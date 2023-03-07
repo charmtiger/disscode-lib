@@ -1,13 +1,13 @@
 import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const AtButtonMeta: IPublicTypeComponentMetadata = {
+const AtButtonMeta: IPublicTypeIPublicTypeComponentMetadata = {
   componentName: 'AtButton',
   title: '按钮',
   docUrl: '',
   screenshot: '',
   devMode: 'proCode',
   npm: {
-    package: 'disscode-lib',
+    package: 'cross-ui',
     version: '0.0.4',
     exportName: 'AtButton',
     main: 'lib/index.js',
@@ -629,7 +629,7 @@ const AtButtonMeta: IPublicTypeComponentMetadata = {
     component: {},
   },
 };
-const snippets: IPublicTypeSnippet[] = [
+const snippets: IPublicTypeIPublicTypeSnippet[] = [
   {
     title: '按钮',
     screenshot: '',

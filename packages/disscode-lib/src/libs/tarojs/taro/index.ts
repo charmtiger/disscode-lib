@@ -40,6 +40,7 @@ export default {
   previewImage,
   chooseVideo,
   createVideoContext,
+  pxTransform: (num: number, width: number) => (num / 2) + 'px',
   hideLoading: () => {},
   request: (options: any) => {},
 };

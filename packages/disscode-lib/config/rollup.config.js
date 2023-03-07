@@ -17,7 +17,9 @@ const externalPackages = [
   '@tarojs/components',
   '@tarojs/runtime',
   '@tarojs/taro',
-  '@tarojs/react'
+  '@tarojs/react',
+  'mobx',
+  'mobx-react'
 ]
 
 export default {

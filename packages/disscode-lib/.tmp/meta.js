@@ -59,6 +59,7 @@ import InputMeta from '/Users/huanglei/Documents/work/mengti/disscode-lib/packag
 import ModalMeta from '/Users/huanglei/Documents/work/mengti/disscode-lib/packages/disscode-lib/lowcode/modal/meta'
 import PageMeta from '/Users/huanglei/Documents/work/mengti/disscode-lib/packages/disscode-lib/lowcode/page/meta'
 import PickerMeta from '/Users/huanglei/Documents/work/mengti/disscode-lib/packages/disscode-lib/lowcode/picker/meta'
+import SafeViewMeta from '/Users/huanglei/Documents/work/mengti/disscode-lib/packages/disscode-lib/lowcode/safe-view/meta'
 import ScrollViewMeta from '/Users/huanglei/Documents/work/mengti/disscode-lib/packages/disscode-lib/lowcode/scroll-view/meta'
 import SwiperItemMeta from '/Users/huanglei/Documents/work/mengti/disscode-lib/packages/disscode-lib/lowcode/swiper-item/meta'
 import SwiperMeta from '/Users/huanglei/Documents/work/mengti/disscode-lib/packages/disscode-lib/lowcode/swiper/meta'
@@ -145,7 +146,7 @@ function generateComponentList(components) {
   return componentList;
 }
 
-function fillRealVersion(meta, packageName = 'disscode-lib', version = '0.0.4', basicLibraryVersion={"@alifd/next":"1.25.23","@alifd/meet":"2.6.3","antd":"4.17.3"}) {
+function fillRealVersion(meta, packageName = 'cross-ui', version = '0.0.4', basicLibraryVersion={"@alifd/next":"1.25.23","@alifd/meet":"2.6.3","antd":"4.17.3"}) {
   if (!meta || !version) {
     return meta;
   }
@@ -167,7 +168,7 @@ function fillRealVersion(meta, packageName = 'disscode-lib', version = '0.0.4', 
   return meta;
 }
 
-const componentMetas = [AtAccordionMeta,AtActionSheetItemMeta,AtActionSheetMeta,AtActivityIndicatorMeta,AtAvatarMeta,AtBadgeMeta,AtButtonMeta,AtCardMeta,AtCheckboxMeta,AtCountdownMeta,AtCurtainMeta,AtDividerMeta,AtDrawerMeta,AtFabMeta,AtFloatButtonMeta,AtFloatLayoutMeta,AtFormMeta,AtGridMeta,AtIconMeta,AtImagePickerMeta,AtIndexesMeta,AtInputNumberMeta,AtInputMeta,AtListItemMeta,AtListMeta,AtLoadMoreMeta,AtMessageMeta,AtModalMeta,AtNavBarMeta,AtNoticebarMeta,AtPaginationMeta,AtProgressMeta,AtRadioMeta,AtRangeMeta,AtRateMeta,AtSearchBarMeta,AtSegmentedControlMeta,AtSliderMeta,AtStepsMeta,AtSwipeActionMeta,AtSwitchMeta,AtTabBarMeta,AtTabsPaneMeta,AtTabsMeta,AtTagMeta,AtTextareaMeta,AtTimelineMeta,AtToastMeta,AutoListMeta,ButtonMeta,ComponentMeta,DividerMeta,EditorMeta,FooterBarMeta,HeaderBarMeta,ImageBackgroundMeta,ImageMeta,InputMeta,ModalMeta,PageMeta,PickerMeta,ScrollViewMeta,SwiperItemMeta,SwiperMeta,TabViewMeta,TextMeta,TextareaMeta,ViewMeta];
+const componentMetas = [AtAccordionMeta,AtActionSheetItemMeta,AtActionSheetMeta,AtActivityIndicatorMeta,AtAvatarMeta,AtBadgeMeta,AtButtonMeta,AtCardMeta,AtCheckboxMeta,AtCountdownMeta,AtCurtainMeta,AtDividerMeta,AtDrawerMeta,AtFabMeta,AtFloatButtonMeta,AtFloatLayoutMeta,AtFormMeta,AtGridMeta,AtIconMeta,AtImagePickerMeta,AtIndexesMeta,AtInputNumberMeta,AtInputMeta,AtListItemMeta,AtListMeta,AtLoadMoreMeta,AtMessageMeta,AtModalMeta,AtNavBarMeta,AtNoticebarMeta,AtPaginationMeta,AtProgressMeta,AtRadioMeta,AtRangeMeta,AtRateMeta,AtSearchBarMeta,AtSegmentedControlMeta,AtSliderMeta,AtStepsMeta,AtSwipeActionMeta,AtSwitchMeta,AtTabBarMeta,AtTabsPaneMeta,AtTabsMeta,AtTagMeta,AtTextareaMeta,AtTimelineMeta,AtToastMeta,AutoListMeta,ButtonMeta,ComponentMeta,DividerMeta,EditorMeta,FooterBarMeta,HeaderBarMeta,ImageBackgroundMeta,ImageMeta,InputMeta,ModalMeta,PageMeta,PickerMeta,SafeViewMeta,ScrollViewMeta,SwiperItemMeta,SwiperMeta,TabViewMeta,TextMeta,TextareaMeta,ViewMeta];
 const components = [];
 const npmInfo = {};
 componentMetas.forEach(meta => {
@@ -231,5 +232,5 @@ export { components, componentList };
 const execCompile = !!false;
 
 if (!execCompile) {
-  window.DisscodeLibMeta = { components, componentList };
+  window.CrossUiMeta = { components, componentList };
 }

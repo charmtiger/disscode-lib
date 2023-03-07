@@ -1,6 +1,6 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const ComponentMeta: ComponentMetadata = {
+const ComponentMeta: IPublicTypeComponentMetadata = {
   componentName: 'Component',
   title: '组件',
   docUrl: '',
@@ -36,7 +36,7 @@ const ComponentMeta: ComponentMetadata = {
     component: {},
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '组件',
     screenshot: '',

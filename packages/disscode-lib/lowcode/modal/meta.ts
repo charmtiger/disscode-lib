@@ -1,7 +1,7 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 import { ExtendComponentMetadata } from '../type';
 
-const ModalMeta: ExtendComponentMetadata = {
+const ModalMeta: ExtendIPublicTypeComponentMetadata = {
   componentName: 'Modal',
   title: '弹窗',
   docUrl: '',
@@ -240,7 +240,7 @@ const ModalMeta: ExtendComponentMetadata = {
     },
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '弹窗',
     screenshot: '',

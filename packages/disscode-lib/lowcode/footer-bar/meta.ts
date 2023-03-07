@@ -1,7 +1,7 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 import { ExtendComponentMetadata } from '../type';
 
-const FooterBarMeta: ExtendComponentMetadata = {
+const FooterBarMeta: ExtendIPublicTypeComponentMetadata = {
   componentName: 'FooterBar',
   title: '底部标签',
   docUrl: '',
@@ -269,7 +269,7 @@ const FooterBarMeta: ExtendComponentMetadata = {
     },
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '底部标签',
     screenshot: '',

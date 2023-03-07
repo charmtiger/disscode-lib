@@ -1,5 +1,5 @@
 {
-  "name": "disscode-lib",
+  "name": "cross-ui",
   "version": "0.0.4",
   "description": "UI KIT for Taro",
   "module": "dist/index.esm.js",
@@ -13,7 +13,7 @@
   "types": "./types/index.d.ts",
   "keywords": [
     "taro",
-    "disscode-lib",
+    "cross-ui",
     "ui"
   ],
   "files": [
@@ -48,8 +48,13 @@
   },
   "dependencies": {
     "classnames": "^2.2.6",
-    "dayjs": "^1.7.7",
     "lodash": "^4.17.10",
+    "@alilc/lowcode-datasource-engine": "^1.1.4",
+    "dayjs": "^1.11.6",
+    "async-validator": "^4.2.5",
+    "mobx": "^4.8.0",
+    "mobx-react": "^6.1.4",
+    "omit.js": "^2.0.2",
     "prop-types": "^15.7.2",
     "react-native-modal": "^13.0.0",
     "swiper": "4.4.2"
@@ -96,7 +101,7 @@
   },
   "componentConfig": {
     "isComponentLibrary": true,
-    "materialSchema": "https://unpkg.com/cross-ui@0.0.5/build/lowcode/assets-prod.json"
+    "materialSchema": "https://unpkg.com/cross-ui@0.0.4/build/lowcode/assets-prod.json"
   },
   "gitHead": "c33cc7fbb734f0dbdd6e305dda1bc8300e5adbe2"
 }

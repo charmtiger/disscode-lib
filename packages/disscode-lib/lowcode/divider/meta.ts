@@ -1,6 +1,6 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const DividerMeta: ComponentMetadata = {
+const DividerMeta: IPublicTypeComponentMetadata = {
   componentName: 'Divider',
   title: {
     type: 'i18n',
@@ -166,7 +166,7 @@ const DividerMeta: ComponentMetadata = {
     component: {},
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '分割线',
     screenshot: '',

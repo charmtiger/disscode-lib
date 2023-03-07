@@ -1,7 +1,7 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 import { ExtendComponentMetadata } from '../type';
 
-const EditorMeta: ExtendComponentMetadata = {
+const EditorMeta: ExtendIPublicTypeComponentMetadata = {
   componentName: 'Editor',
   title: '富文本编辑',
   docUrl: '',
@@ -153,7 +153,7 @@ const EditorMeta: ExtendComponentMetadata = {
     component: {},
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '富文本编辑',
     screenshot: '',

@@ -1,14 +1,14 @@
 
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const AtSegmentedControlMeta: ComponentMetadata = {
+const AtSegmentedControlMeta: IPublicTypeComponentMetadata = {
   "componentName": "AtSegmentedControl",
   "title": "AtSegmentedControl",
   "docUrl": "",
   "screenshot": "",
   "devMode": "proCode",
   "npm": {
-    "package": "disscode-lib",
+    "package": "cross-ui",
     "version": "0.0.4",
     "exportName": "AtSegmentedControl",
     "main": "lib/index.js",
@@ -339,7 +339,7 @@ const AtSegmentedControlMeta: ComponentMetadata = {
     "component": {}
   }
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     "title": "AtSegmentedControl",
     "screenshot": "",

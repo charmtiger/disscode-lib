@@ -1,7 +1,7 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 import { ConditionStyleSetterConfig, ViewStyleSetterConfig } from '../base';
 
-const ViewMeta: ComponentMetadata = {
+const ViewMeta: IPublicTypeComponentMetadata = {
   componentName: 'View',
   title: '容器',
   docUrl: '',
@@ -79,7 +79,7 @@ const ViewMeta: ComponentMetadata = {
     },
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '容器',
     screenshot: '',

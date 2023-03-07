@@ -1,14 +1,14 @@
 
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const AtCountdownMeta: ComponentMetadata = {
+const AtCountdownMeta: IPublicTypeComponentMetadata = {
   "componentName": "AtCountdown",
   "title": "AtCountdown",
   "docUrl": "",
   "screenshot": "",
   "devMode": "proCode",
   "npm": {
-    "package": "disscode-lib",
+    "package": "cross-ui",
     "version": "0.0.4",
     "exportName": "AtCountdown",
     "main": "lib/index.js",
@@ -564,7 +564,7 @@ const AtCountdownMeta: ComponentMetadata = {
     "component": {}
   }
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     "title": "AtCountdown",
     "screenshot": "",

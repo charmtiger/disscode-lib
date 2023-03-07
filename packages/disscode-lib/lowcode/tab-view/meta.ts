@@ -1,6 +1,6 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const TabViewMeta: ComponentMetadata = {
+const TabViewMeta: IPublicTypeComponentMetadata = {
   componentName: 'TabView',
   title: '标签布局',
   docUrl: '',
@@ -262,7 +262,7 @@ const TabViewMeta: ComponentMetadata = {
     },
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '标签布局',
     screenshot: '',

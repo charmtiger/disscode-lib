@@ -1,4 +1,4 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 import { ExtendComponentMetadata } from '../type';
 
 // https://cdn.jsdelivr.net/npm/@alilc/lowcode-react-simulator-renderer@beta/dist/css/react-simulator-renderer.css
@@ -10,7 +10,7 @@ import { ExtendComponentMetadata } from '../type';
 // https://cdn.jsdelivr.net/npm/@alilc/lowcode-react-simulator-renderer@beta/dist/js/react-simulator-renderer.js
 // https://unpkg.com/@alilc/lowcode-react-simulator-renderer@beta/dist/js/react-simulator-renderer.js
 
-const TextMeta: ExtendComponentMetadata = {
+const TextMeta: ExtendIPublicTypeComponentMetadata = {
   componentName: 'Text',
   title: '文字',
   docUrl: '',
@@ -117,7 +117,7 @@ const TextMeta: ExtendComponentMetadata = {
     },
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '文本',
     screenshot: '',

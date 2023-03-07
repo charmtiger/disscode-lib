@@ -1,6 +1,6 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const ImageBackgroundMeta: ComponentMetadata = {
+const ImageBackgroundMeta: IPublicTypeComponentMetadata = {
   componentName: 'ImageBackground',
   title: '图片背景容器',
   docUrl: '',
@@ -113,7 +113,7 @@ const ImageBackgroundMeta: ComponentMetadata = {
     component: { isContainer: true },
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '图片背景容器',
     screenshot: '',

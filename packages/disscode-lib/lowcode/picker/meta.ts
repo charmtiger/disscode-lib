@@ -1,6 +1,6 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const PickerMeta: ComponentMetadata = {
+const PickerMeta: IPublicTypeComponentMetadata = {
   componentName: 'Picker',
   title: '弹出选择器',
   docUrl: '',
@@ -146,7 +146,7 @@ const PickerMeta: ComponentMetadata = {
     },
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '弹出选择器',
     screenshot: '',

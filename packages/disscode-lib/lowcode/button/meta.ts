@@ -1,6 +1,6 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const ButtonMeta: ComponentMetadata = {
+const ButtonMeta: IPublicTypeComponentMetadata = {
   componentName: 'Button',
   title: {
     type: 'i18n',
@@ -359,7 +359,7 @@ const ButtonMeta: ComponentMetadata = {
     component: {},
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '按钮',
     screenshot: '',

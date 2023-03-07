@@ -1,7 +1,7 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 import { ExtendComponentMetadata } from '../type';
 
-const ScrollViewMeta: ExtendComponentMetadata = {
+const ScrollViewMeta: ExtendIPublicTypeComponentMetadata = {
   componentName: 'ScrollView',
   title: '滚动视图',
   docUrl: '',
@@ -182,7 +182,7 @@ const ScrollViewMeta: ExtendComponentMetadata = {
     component: { isContainer: true },
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '滚动视图',
     screenshot: '',

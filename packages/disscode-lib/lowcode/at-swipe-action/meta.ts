@@ -1,14 +1,14 @@
 
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const AtSwipeActionMeta: ComponentMetadata = {
+const AtSwipeActionMeta: IPublicTypeComponentMetadata = {
   "componentName": "AtSwipeAction",
   "title": "AtSwipeAction",
   "docUrl": "",
   "screenshot": "",
   "devMode": "proCode",
   "npm": {
-    "package": "disscode-lib",
+    "package": "cross-ui",
     "version": "0.0.4",
     "exportName": "AtSwipeAction",
     "main": "lib/index.js",
@@ -575,7 +575,7 @@ const AtSwipeActionMeta: ComponentMetadata = {
     "component": {}
   }
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     "title": "AtSwipeAction",
     "screenshot": "",

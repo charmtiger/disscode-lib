@@ -1,14 +1,14 @@
 
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const AtAccordionMeta: ComponentMetadata = {
+const AtAccordionMeta: IPublicTypeComponentMetadata = {
   "componentName": "AtAccordion",
   "title": "AtAccordion",
   "docUrl": "",
   "screenshot": "",
   "devMode": "proCode",
   "npm": {
-    "package": "disscode-lib",
+    "package": "cross-ui",
     "version": "0.0.4",
     "exportName": "AtAccordion",
     "main": "lib/index.js",
@@ -529,7 +529,7 @@ const AtAccordionMeta: ComponentMetadata = {
     "component": {}
   }
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     "title": "AtAccordion",
     "screenshot": "",

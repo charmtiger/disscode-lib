@@ -1,10 +1,19 @@
-import './style/index.scss';
+import {
+  Picker as TPicker,
+  Swiper as TSwiper,
+  SwiperItem as TSwiperItem,
+  PickerView as TPickerView,
+  PickerViewColumn as IPickerViewColumn,
+} from '@tarojs/components';
+
+import { configure } from 'mobx';
+
 // export { default as AtActionSheet } from './components/action-sheet'
 // export { default as AtActionSheetItem } from './components/action-sheet/body/item'
 // export { default as AtActivityIndicator } from './components/activity-indicator'
 // export { default as AtAvatar } from './components/avatar'
 // export { default as AtBadge } from './components/badge'
-export { default as AtButton } from './components/button'
+export { default as AtButton } from './components/button';
 // export { default as AtCard } from './components/card'
 // export { default as AtCheckbox } from './components/checkbox'
 // export { default as AtDrawer } from './components/drawer'
@@ -54,3 +63,30 @@ export { default as AtButton } from './components/button'
 /* 私有的组件  */
 // export { default as AtLoading } from './components/loading'
 // export { default as AtComponent } from './common/component'
+
+export { default as Text } from './components/base/Text';
+export { default as Image } from './components/base/Image';
+export { default as ImageBackground } from './components/base/ImageBackground';
+export { default as View } from './components/base/View';
+export { default as ScrollView } from './components/base/ScrollView';
+export { default as Input } from './components/base/Form/Input';
+export { default as Textarea } from './components/base/Form/Textarea';
+
+export { default as Page } from './components/base/Layout/Page';
+export { default as HeaderBar } from './components/base/Bar/HeaderBar';
+export { default as SafeView } from './components/base/Bar/SafeView';
+export { default as Modal } from './components/base/Modal';
+export { default as AutoList } from './components/base/List/AutoList';
+
+export { default as FooterBar } from './components/base/Bar/FooterBar';
+export { default as TabView } from './components/base/Layout/Tabview';
+export { Component } from './components/base/Layout/Component';
+export const Picker = TPicker;
+export const Swiper = TSwiper;
+export const SwiperItem = TSwiperItem;
+export const PickerView = TPickerView;
+export const PickerViewColumn = IPickerViewColumn;
+
+configure({ isolateGlobalState: true });
+
+import './style/index.scss';

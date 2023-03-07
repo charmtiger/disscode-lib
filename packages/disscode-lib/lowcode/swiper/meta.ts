@@ -1,6 +1,6 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const SwiperMeta: ComponentMetadata = {
+const SwiperMeta: IPublicTypeComponentMetadata = {
   componentName: 'Swiper',
   title: '滑块视图容器',
   docUrl: '',
@@ -142,7 +142,7 @@ const SwiperMeta: ComponentMetadata = {
     },
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '滑块视图容器',
     screenshot: '',

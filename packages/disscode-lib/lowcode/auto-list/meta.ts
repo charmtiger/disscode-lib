@@ -1,6 +1,6 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const AutoListMeta: ComponentMetadata = {
+const AutoListMeta: IPublicTypeComponentMetadata = {
   componentName: 'AutoList',
   title: '自动列表',
   docUrl: '',
@@ -752,7 +752,7 @@ const AutoListMeta: ComponentMetadata = {
     component: {},
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '自动列表',
     screenshot: '',

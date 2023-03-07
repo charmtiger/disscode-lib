@@ -1,0 +1,11 @@
+// 处理PC版和H5版本的样式差异
+
+textarea {
+  width: 100%;
+  border-width: 0;
+  background-color: none;
+}
+
+taro-textarea-core {
+  width: 100%!important;
+}

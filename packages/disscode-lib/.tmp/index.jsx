@@ -77,7 +77,7 @@ const type = 'component';
 
 if (devMode && type !== 'setter') {
   assets.packages.push({
-    "package": "disscode-lib",
+    "package": "cross-ui",
     "version": "0.0.4",
     "library": "BizComps",
     "urls": ["/view.js"],
@@ -92,7 +92,7 @@ if (devMode && type !== 'setter') {
   assets.ignoreComponents = {};
 
   assets.components = [{
-    exportName: 'DisscodeLibMeta',
+    exportName: 'CrossUiMeta',
     url: metaType ? `/meta.${metaType}.js` : '/meta.js',
   }];
 }

@@ -1,7 +1,7 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 import { ExtendComponentMetadata } from '../type';
 
-const ImageMeta: ExtendComponentMetadata = {
+const ImageMeta: ExtendIPublicTypeComponentMetadata = {
   componentName: 'Image',
   title: '图片',
   docUrl: '',
@@ -94,7 +94,7 @@ const ImageMeta: ExtendComponentMetadata = {
     component: {},
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '图片',
     screenshot: '',

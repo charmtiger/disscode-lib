@@ -1,6 +1,6 @@
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const TextareaMeta: ComponentMetadata = {
+const TextareaMeta: IPublicTypeComponentMetadata = {
   componentName: 'Textarea',
   title: '多行输入',
   docUrl: '',
@@ -173,7 +173,7 @@ const TextareaMeta: ComponentMetadata = {
     component: {},
   },
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     title: '多行输入',
     screenshot: '',

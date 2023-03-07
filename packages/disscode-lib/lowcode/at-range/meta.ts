@@ -1,14 +1,14 @@
 
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const AtRangeMeta: ComponentMetadata = {
+const AtRangeMeta: IPublicTypeComponentMetadata = {
   "componentName": "AtRange",
   "title": "AtRange",
   "docUrl": "",
   "screenshot": "",
   "devMode": "proCode",
   "npm": {
-    "package": "disscode-lib",
+    "package": "cross-ui",
     "version": "0.0.4",
     "exportName": "AtRange",
     "main": "lib/index.js",
@@ -505,7 +505,7 @@ const AtRangeMeta: ComponentMetadata = {
     "component": {}
   }
 };
-const snippets: Snippet[] = [
+const snippets: IPublicTypeSnippet[] = [
   {
     "title": "AtRange",
     "screenshot": "",
